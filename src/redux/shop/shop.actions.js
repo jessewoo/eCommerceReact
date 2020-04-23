@@ -7,7 +7,7 @@ import { firestore, convertCollectionsSnapshotToMap } from '../../firebase/fireb
 // NOW, we will use a function that returns a function that gets ACCESS TO dispatch...it can fire multiple actions
 
 export const fetchCollectionsStart = () => ({
-  type: ShopActionTypes.FETCH_COLLECTIONS_SUCCESS,
+  type: ShopActionTypes.FETCH_COLLECTIONS_START,
 });
 
 export const fetchCollectionsSuccess = collectionsMap => ({
